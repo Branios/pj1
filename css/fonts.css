@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #031920;
+}
+
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+}
