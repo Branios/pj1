@@ -1,4 +1,61 @@
+.header {
+    background: transparent;
+}
+
 .header__container {
-    height: 90px;
+    display: flex;
+    padding: 20px 0px;
     position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_menu {
+    display: flex;
+}
+
+.logo__pic {
+    width: 98px;
+    max-width: 100%;
+}
+
+.navigation__items {
+    display: flex;
+    padding-left: 20%;
+}
+
+.navigation__items__item {
+    margin-right: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation__items__item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts {
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-weight: 400;
+    font-size: 26px;
+    text-decoration: none;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.contacts__worktime {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
 }
