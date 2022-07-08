@@ -63,14 +63,10 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 13px;
-    opacity: .7;
+    opacity: 1;
 }
 
-.contacts__worktime--modul {
-    
-}
-
-.contacts__worktime--title:hover .contacts__worktime--list {
+.contacts__worktime:hover .contacts__worktime--list {
     display: block
 }
 
@@ -82,6 +78,16 @@
     display: none;
     position: absolute;
     right: 10%;
+    transition: .7s;
+}
+
+.contacts__worktime--list:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #CDD1D2;
 }
 
 .contacts__worktime--item {
