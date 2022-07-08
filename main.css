@@ -2,9 +2,10 @@
 @import url(/css/normalize.css);
 @import url(/css/fonts.css);
 @import url(/css/header.css);
+@import url(/css/home.css);
 
 
 .container {
     margin: 0 auto;
-    width: 1142px;
+    max-width: 1142px;
 }
