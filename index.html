@@ -9,36 +9,47 @@
 </head>
 
 <body>
-    <div class="container main__page__container">
-        <section class="section">
-            <header class="header">
-                <div class="container header__container">
-                    <div class="main_menu">
-                        <div class="logo">
-                            <a href="/">
+    <div class="wrapper main-page-wrapper">
+        <div class="section-wrapper">
+            <section class="main-screen bg-img">
+                <div class="container main-screen__container">
+                    <header class="header">
+                        <div class="header__column">
+                            <a href="/" class="logo">
                                 <img src="/img/лого.png" class="logo__pic" alt="Логотип">
                             </a>
+                            <nav class="navigation">
+                                <ul class="navigation__list">
+                                    <li class="navigation__item navigation__item--active">
+                                        <a href="#" class="navigation__link">Главная</a>
+                                    </li>
+                                    <li class="navigation__item navigation__item--active">
+                                        <a href="#" class="navigation__link">Услуги</a>
+                                    </li>
+                                    <li class="navigation__item navigation__item--active">
+                                        <a href="#" class="navigation__link">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
-                        <nav class="navigation">
-                            <ul class="navigation__items">
-                                <li  class="navigation__items__item"><a href="/">Главная</a></li>
-                                <li  class="navigation__items__item"><a href="/">Услуги</a></li>
-                                <li  class="navigation__items__item"><a href="/">Отзывы</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <address class="contacts">
-                        <a href="tel: 880000000" class="contacts__phone">8 800 800 00 00</a>
-                        <div class="contacts__worktime">График работы</div>
-                    </address>
+                        <div class="header__column header__column--right">
+                            <div class="contacts">
+                                <a href="tel:88007003030" class="phone">8 800 700 30 30</a>
+                                <div class="contacts__worktime">
+                                    <a href="" class="contacts__worktime--title">График работы</a>
+                                    <ul class="contacts__worktime--list">
+                                        <li class="contacts__worktime--item">пн-вс: 09:00-20:00</li>
+                                        <li class="contacts__worktime--item">обед: 14:00-14:30</li>
+                                    </ul> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </header>
                 </div>
-            </header>
-            <div class="mainImage">
-                <img src="/img/1.png" class="mainImage__pic" alt="Изображение на главной странице">
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
-    
+
 </body>
-</html>
 </html>

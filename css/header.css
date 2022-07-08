@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    max-width: 100%;
   }
   
 .header {
@@ -17,13 +18,13 @@
     align-items: center;
 }
 
-.logo {
-    
+.logo__pic {
+    width: 80px;
 }
 
 .navigation__list {
     display: flex;
-    padding-left: 20%;
+    padding-left: 26%;
 }
 
 .navigation__item {
@@ -56,8 +57,37 @@
     color: #FFFFFF;
 }
 
-.worktime {
+.contacts__worktime--title {
+    display: block;
+    position: relative;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 13px;
-    color: #FFFFFF;
+    opacity: .7;
+}
+
+.contacts__worktime--modul {
+    
+}
+
+.contacts__worktime--title:hover .contacts__worktime--list {
+    display: block
+}
+
+.contacts__worktime--list {
+    background-color: #CDD1D2;
+    border-radius: 4px;
+    flex-direction: column;
+    padding: 15px 20px;
+    display: none;
+    position: absolute;
+    right: 10%;
+}
+
+.contacts__worktime--item {
+    color: black;
+    font-size: 13;
+    font-weight: 400;
+    list-style: none;
+    text-align: left;
 }

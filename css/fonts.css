@@ -10,3 +10,8 @@ h1 {
     text-align: left;
     color: #FFFFFF;
 }
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
