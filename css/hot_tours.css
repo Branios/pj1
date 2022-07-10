@@ -1,0 +1,17 @@
+.hot-tours__title {
+    display: flex;
+}
+
+.icon-title {
+    margin-left: 12px;
+}
+
+.hot-tours__blocks--list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-tours__blocks--item--desc {
+    background-color: #FFFFFF;
+
+}
