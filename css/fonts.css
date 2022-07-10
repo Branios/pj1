@@ -8,6 +8,13 @@ h1 {
     font-size: 72px;
     font-weight: 700;
     text-align: left;
+    line-height: 98px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
     color: #FFFFFF;
 }
 
