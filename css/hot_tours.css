@@ -1,31 +1,29 @@
 .hot-tours {
-    margin-top: 246px;
+  margin-top: 246px;
 }
 
 .hot-tours__title {
-    display: flex;
+  display: flex;
 }
 
 .icon-title {
-    margin-left: 12px;
-    width: 21px;
+  margin-left: 12px;
+  width: 21px;
 }
 
 .hot-tours__blocks--list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
 }
 
 .hot-tours__blocks--item {
-    max-width: 362px;
+  max-width: 362px;
 }
 
 .hot-tours__blocks--item--desc {
-    flex-direction: row;
-    background-color: #FFFFFF;
-    padding: 20px;
-    
-
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding: 20px;
 }

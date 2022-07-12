@@ -1,0 +1,7 @@
+@import url("_normalize");
+@import url("_header");
+@import url("_fonts");
+.container {
+  margin: 0 auto;
+  max-width: 1142px;
+}

@@ -1,24 +1,22 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background: #031920;
+  font-family: "Open Sans", sans-serif;
+  background: #031920;
 }
-
-
-h1 {
-    font-size: 72px;
-    font-weight: 700;
-    text-align: left;
-    line-height: 98px;
-    color: #FFFFFF;
+body h1 {
+  font-size: 72px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 98px;
+  color: #FFFFFF;
 }
 
 .text {
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 p {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
