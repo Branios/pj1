@@ -11,8 +11,31 @@
     align-items: center;
 }
 
-
+.header__col--left {
+    display: flex;
+    align-items: center;
+}
 
 .header-wrapper {
-    margin-left: 20px;
+    margin-left: 80px;
+}
+
+.logo__icon {
+    width: 85px;
+}
+
+.header__contacts {
+    display: block;
+    text-align: right;
+
+    &--phone {
+        color: $white;
+        font-size: 26px;
+        text-decoration: none;
+    }
+    
+    &--worktime {
+        color: $white;
+        font-size: 13px;
+    }
 }

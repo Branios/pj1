@@ -4,5 +4,11 @@
 }
 
 .nav__item {
-    list-style: none;
+    margin-right: 54px;
+
+    a {
+        list-style: none;
+        color: $white;
+        text-decoration: none;
+    }
 }

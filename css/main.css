@@ -360,7 +360,9 @@ h4 {
   font-weight: 700;
 }
 
-p__span {
+p,
+a,
+span {
   margin: 0;
   font-weight: 400;
 }
@@ -388,8 +390,35 @@ ul {
           align-items: center;
 }
 
+.header__col--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header-wrapper {
-  margin-left: 20px;
+  margin-left: 80px;
+}
+
+.logo__icon {
+  width: 85px;
+}
+
+.header__contacts {
+  display: block;
+  text-align: right;
+}
+.header__contacts--phone {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-decoration: none;
+}
+.header__contacts--worktime {
+  color: #FFFFFF;
+  font-size: 13px;
 }
 
 .nav__list {
@@ -402,5 +431,10 @@ ul {
 }
 
 .nav__item {
+  margin-right: 54px;
+}
+.nav__item a {
   list-style: none;
+  color: #FFFFFF;
+  text-decoration: none;
 }

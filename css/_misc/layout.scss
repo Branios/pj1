@@ -18,11 +18,11 @@ h4 {
     font-weight: 700;
 }
 
-p {
-    &__span {
-        margin: 0;
-        font-weight: 400;
-    }
+p,
+a,
+span {
+    margin: 0;
+    font-weight: 400;
 }
 
 ul {
