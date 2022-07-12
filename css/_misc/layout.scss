@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    background-color: $background;
+}
+
+.container {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+// tag styles reset 
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
+    &__span {
+        margin: 0;
+        font-weight: 400;
+    }
+}
+
+ul {
+    padding: 0;
+}

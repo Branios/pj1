@@ -1,14 +1,19 @@
-@import "_normalize";
-@import "_header";
-@import "_fonts";
-@import "_hello";
-@import "_home";
-@import "_news";
-@import "_hot_tours";
-@import "_elements";
+// colors
 
-.container {
-    margin: 0 auto;
-    max-width: 1142px;
-}
+$red: #F5170E;
+$red_hover: #DA0100;
+$darkgrey: #2B2B2B;
+$grey: #8E8E8E;
+$lightgrey: #F4F5F5;
+$background: #001821;
 
+// normalize
+
+@import "../css/_misc/normalize.scss";
+
+// blocks
+
+@import "../css/_misc/layout.scss";
+@import "../css/_misc/fonts.scss";
+@import "../css/blocks/header.scss";
+@import "../css/blocks/nav.scss";
