@@ -1,7 +1,7 @@
 .header {
     position: absolute;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 30px;
     z-index: 1;
 }
 
@@ -35,7 +35,36 @@
     }
     
     &--worktime {
+        position:relative;
         color: $white;
         font-size: 13px;
+
+        :hover {
+            color: $grey;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        &--modal {
+            display: none;
+            background-color: $lightgrey;
+            border-radius: 5px;
+            padding: 11px 19px;
+        }
     }
 }
+
+.worktime__list {
+    list-style: none;
+    text-align: left;
+    
+    &--item {
+        margin: 4px 0;
+
+        &--bold {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    }
+}
+
