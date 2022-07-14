@@ -39,7 +39,7 @@
         color: $white;
         font-size: 13px;
 
-        :hover {
+        :hover .--modal {
             color: $grey;
             transition: 0.5s;
             cursor: pointer;

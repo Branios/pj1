@@ -1,0 +1,25 @@
+.promo {
+    background-image: url("/img/1.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.promo__container {
+    display: flex;
+}
+
+.promo {
+    &__subtitle {
+        font-size: 18px;
+        color: $white;
+        margin-top: 27px;
+    }
+
+    &__button {
+        margin-top: 32px;
+    }
+}
+
+    

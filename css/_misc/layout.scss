@@ -9,7 +9,15 @@ body {
     margin: 0 auto;
 }
 
-// tag styles reset 
+.section {
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// font and tag styles
 
 h1,
 h2,
@@ -29,4 +37,27 @@ span {
 ul {
     padding: 0;
     margin: 0;
+}
+
+.title {
+    font-size: 72px;
+    color: $white;
+    line-height: 98px
+
+    &__middle {
+        font-size: 36px;
+    }
+}
+
+.button {
+    background-color: $red;
+    color: $white;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    border-radius: 50px;
+    width: fit-content;
+
+    :hover {
+        background-color: $red_hover;
+    }
 }
