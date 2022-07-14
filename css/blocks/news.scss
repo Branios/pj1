@@ -1,0 +1,30 @@
+.news {
+
+    &__blocks {
+        margin-top: 50px;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 557px;
+        border-radius: 5px;
+        height: auto;
+
+        &--first {
+            background-image: url(/img/plain.png);
+        }
+
+        &--second {
+            background-image: url(/img/Surfer.png);
+        }
+
+        &--desc {
+            padding: 252px 30px 47px;
+        }
+    }
+}
