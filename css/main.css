@@ -407,11 +407,12 @@ ul {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  border: 1px solid transparent;
 }
 .button:hover {
   background-color: #DA0100;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header {
@@ -564,7 +565,54 @@ ul {
   width: 362px;
 }
 .tours__item--block {
-  padding: 33px 24px 26px;
+  padding: 0px 24px 26px;
+}
+.tours__item--img {
+  max-height: 144px;
+  width: auto;
+}
+.tours__item--title {
+  margin-top: 33px;
+}
+.tours__item--shortdesc {
+  margin-top: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #666666;
+}
+.tours__item--date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+.tours__item--food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tours__item--desc {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.tours__item--icon {
+  margin-right: 10px;
+}
+.tours__item--button {
+  margin-top: 24px;
+}
+.tours__item--button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #F5170E;
+  color: #F5170E;
 }
 
 .title__icon {

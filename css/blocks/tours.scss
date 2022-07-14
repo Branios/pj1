@@ -24,7 +24,53 @@
         width: 362px;
 
         &--block {
-            padding: 33px 24px 26px;
+            padding: 0px 24px 26px;
+        }
+
+        &--img {
+            max-height: 144px;
+            width: auto;
+        }
+
+        &--title {
+            margin-top: 33px;
+        }
+
+        &--shortdesc {
+            margin-top: 21px;
+            display: flex;
+            color: $shortdesc;
+        }
+
+        &--date {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        &--food {
+            display: flex;
+            align-items: center;
+        }
+
+        &--desc {
+            margin-top: 24px;
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        &--icon {
+            margin-right: 10px;
+        }
+
+        &--button {
+            margin-top: 24px;
+            
+            &:hover {
+               background-color: $white;
+               border: 1px solid $red;
+               color: $red;
+            }
         }
     }
     
@@ -35,5 +81,6 @@
     margin-left: 12px;
     max-height: 28px;
 }
+
 
 

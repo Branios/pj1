@@ -57,9 +57,10 @@ ul {
     padding: 18px 40px;
     border-radius: 50px;
     width: fit-content;
+    border: 1px solid transparent;
 
     &:hover {
         background-color: $red_hover;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 }
