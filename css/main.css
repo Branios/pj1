@@ -354,7 +354,6 @@ body {
 }
 
 .section {
-  height: 100vh;
   min-height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,8 +390,12 @@ ul {
 .title {
   font-size: 72px;
   color: #FFFFFF;
-  line-height: 98px .title __middle;
-  line-height-font-size: 36px;
+  line-height: 98px;
+}
+
+.title__middle {
+  color: #FFFFFF;
+  font-size: 36px;
 }
 
 .button {
@@ -405,8 +408,10 @@ ul {
   width: -moz-fit-content;
   width: fit-content;
 }
-.button :hover {
+.button:hover {
   background-color: #DA0100;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header {
@@ -495,9 +500,9 @@ ul {
 
 .nav__item {
   margin-right: 54px;
+  list-style: none;
 }
 .nav__item a {
-  list-style: none;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -528,4 +533,41 @@ ul {
 }
 .promo__button {
   margin-top: 32px;
+}
+
+.tours {
+  height: auto;
+}
+.tours__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tours__blocks {
+  margin-top: 50px;
+}
+.tours__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tours__item {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  width: 362px;
+}
+.tours__item--block {
+  padding: 33px 24px 26px;
+}
+
+.title__icon {
+  margin-left: 12px;
+  max-height: 28px;
 }

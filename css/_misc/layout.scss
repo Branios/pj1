@@ -10,7 +10,6 @@ body {
 }
 
 .section {
-    height: 100vh;
     min-height: 650px;
     display: flex;
     flex-direction: column;
@@ -43,11 +42,13 @@ ul {
     font-size: 72px;
     color: $white;
     line-height: 98px
-
-    &__middle {
-        font-size: 36px;
-    }
 }
+
+.title__middle {
+    color: $white;
+    font-size: 36px;
+}
+
 
 .button {
     background-color: $red;
@@ -57,7 +58,8 @@ ul {
     border-radius: 50px;
     width: fit-content;
 
-    :hover {
+    &:hover {
         background-color: $red_hover;
+        transition: 0.5s;
     }
 }

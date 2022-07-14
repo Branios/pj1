@@ -1,0 +1,39 @@
+.tours {
+
+    height: auto;
+
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+
+    &__blocks {
+        margin-top: 50px;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__item{
+        background-color: $white;
+        border-radius: 5px;
+        width: 362px;
+
+        &--block {
+            padding: 33px 24px 26px;
+        }
+    }
+    
+    
+}
+
+.title__icon {
+    margin-left: 12px;
+    max-height: 28px;
+}
+
+
