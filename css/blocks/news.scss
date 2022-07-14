@@ -25,6 +25,11 @@
 
         &--desc {
             padding: 252px 30px 47px;
+            color: $white;
+
+            &--title, &--shortdesc {
+                margin-top: 10px;
+            }
         }
     }
 }

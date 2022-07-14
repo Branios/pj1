@@ -645,4 +645,8 @@ ul {
 }
 .news__item--desc {
   padding: 252px 30px 47px;
+  color: #FFFFFF;
+}
+.news__item--desc--title, .news__item--desc--shortdesc {
+  margin-top: 10px;
 }
