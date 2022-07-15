@@ -652,3 +652,13 @@ ul {
 .news__item--desc--title, .news__item--desc--shortdesc {
   margin-top: 10px;
 }
+.news__pagination {
+  margin-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+}
