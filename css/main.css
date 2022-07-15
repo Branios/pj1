@@ -396,11 +396,14 @@ ul {
 .title__middle {
   color: #FFFFFF;
   font-size: 36px;
+  line-height: 49px;
 }
 
 .button {
   background-color: #F5170E;
   color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   padding: 18px 40px;
   border-radius: 50px;
@@ -608,6 +611,7 @@ ul {
 }
 .tours__item--button {
   margin-top: 24px;
+  padding: 18px 30px;
 }
 .tours__item--button:hover {
   background-color: #FFFFFF;
@@ -620,6 +624,9 @@ ul {
   max-height: 28px;
 }
 
+.news {
+  margin-top: 30px;
+}
 .news__blocks {
   margin-top: 50px;
 }
@@ -661,4 +668,12 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
+}
+.news__pagination--list {
+  margin-left: 36px;
+}
+.news__pagination--item {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 26px;
 }
