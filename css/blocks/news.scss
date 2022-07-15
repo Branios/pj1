@@ -17,14 +17,16 @@
 
         &--first {
             background-image: url(/img/plain.png);
+            background-size: cover;
         }
 
         &--second {
             background-image: url(/img/Surfer.png);
+            background-size: cover;
         }
 
         &--desc {
-            padding: 252px 30px 47px;
+            padding: 252px 30px 45px;
             color: $white;
 
             &--title, &--shortdesc {
