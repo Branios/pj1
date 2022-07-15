@@ -676,4 +676,15 @@ ul {
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 26px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  padding: 8px 16px;
+  border-radius: 50px;
+  border-color: transparent;
+}
+.news__pagination--item:hover {
+  background-color: #FFFFFF;
+  color: #2B2B2B;
+  padding: 9px 16px;
+  border-color: #FFFFFF;
 }
