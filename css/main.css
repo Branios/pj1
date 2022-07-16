@@ -691,4 +691,13 @@ ul {
 
 .about {
   margin-top: 145px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__image {
+  position: relative;
+}
+.about__image--bottom {
+  z-index: 1;
 }

@@ -1,5 +1,14 @@
 .about {
 
     margin-top: 145px;
+    display: flex;
+
+    &__image {
+        position: relative;
+
+        &--bottom {
+            z-index: 1;
+        }
+    }
 
 }
