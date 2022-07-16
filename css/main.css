@@ -698,6 +698,12 @@ ul {
 .about__image {
   position: relative;
 }
+.about__image--photo {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .about__image--bottom {
+  top: -400px;
+  left: 357px;
   z-index: 1;
 }
