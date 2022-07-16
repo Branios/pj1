@@ -698,12 +698,17 @@ ul {
 .about__image {
   position: relative;
 }
-.about__image--photo {
-  -o-object-fit: cover;
-     object-fit: cover;
+.about__image--top {
+  background-image: url(/img/gates.png);
+  background-size: cover;
 }
 .about__image--bottom {
+  background-image: url(/img/mountains.png);
+  background-size: cover;
   top: -400px;
   left: 357px;
   z-index: 1;
+  width: 785px;
+  border-radius: 5px;
+  padding: 80px 200px 66px 80px;
 }

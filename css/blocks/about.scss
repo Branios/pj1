@@ -5,15 +5,21 @@
 
     &__image {
         position: relative;
-        
-        &--photo {
-            object-fit: cover;
+
+        &--top {
+            background-image: url(/img/gates.png);
+            background-size: cover;
         }
 
         &--bottom {
+            background-image: url(/img/mountains.png);
+            background-size: cover;
             top: -400px;
             left: 357px;
             z-index: 1;
+            width: 785px;
+            border-radius: 5px;
+            padding: 80px 200px 66px 80px;
         }
     }
 
