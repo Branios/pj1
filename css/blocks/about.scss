@@ -9,17 +9,32 @@
         &--top {
             background-image: url(/img/gates.png);
             background-size: cover;
+            max-width: 490px;
+            height: 505px;
         }
 
         &--bottom {
             background-image: url(/img/mountains.png);
             background-size: cover;
-            top: -400px;
+            top: -370px;
             left: 357px;
             z-index: 1;
-            width: 785px;
+            max-width: 625px;
             border-radius: 5px;
-            padding: 80px 200px 66px 80px;
+            padding: 80px 80px 66px;
+        }
+    }
+
+    &__content {
+        width: 500px;
+
+        &--title {
+            color: $black;
+        }
+
+        &--desc {
+            line-height: 27px;
+            margin: 37px 0px 43px;
         }
     }
 
