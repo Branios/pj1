@@ -391,7 +391,7 @@ hr {
   width: 100%;
   color: #F4F5F5;
   opacity: 0.1;
-  margin: 0px;
+  margin: 0px 0px 45px;
 }
 
 .title {
@@ -453,7 +453,7 @@ hr {
           align-items: center;
 }
 
-.header-wrapper {
+.header__wrapper {
   margin-left: 80px;
 }
 
@@ -745,6 +745,17 @@ hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__wrapper {
+  margin-left: 80px;
+}
+.footer__col--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

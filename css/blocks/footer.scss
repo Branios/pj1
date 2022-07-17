@@ -10,4 +10,13 @@
         align-items: center;
     }
 
+    &__wrapper {
+        margin-left: 80px;
+    }
+
+    &__col--left {
+        display: flex;
+        align-items: center;
+    }
+
 }
