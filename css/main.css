@@ -387,6 +387,13 @@ ul {
   margin: 0;
 }
 
+hr {
+  width: 100%;
+  color: #F4F5F5;
+  opacity: 0.1;
+  margin: 0px;
+}
+
 .title {
   font-size: 72px;
   color: #FFFFFF;
@@ -690,6 +697,8 @@ ul {
 }
 
 .about {
+  background-image: url(/img/2.png);
+  background-size: cover;
   margin-top: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,4 +732,20 @@ ul {
 .about__content--desc {
   line-height: 27px;
   margin: 37px 0px 43px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 30px;
+  z-index: 1;
+  display: inline-block;
+}
+.footer__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
