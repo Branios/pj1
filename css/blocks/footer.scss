@@ -52,3 +52,25 @@
     }
 
 }
+
+.social {
+
+    margin-right: 74px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        &--item {
+            margin-left: 40px;
+            text-decoration: none;
+        }
+    }
+
+    @each $social in (tg, vk, fb, in) {
+        .social_#{$social} {
+            
+        }
+    }
+}

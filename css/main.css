@@ -796,3 +796,20 @@ hr {
 .footer__contacts--worktime--modal {
   display: none;
 }
+
+.social {
+  margin-right: 74px;
+}
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+.social__list--item {
+  margin-left: 40px;
+  text-decoration: none;
+}
