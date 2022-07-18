@@ -11,12 +11,44 @@
     }
 
     &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav {
         margin-left: 80px;
     }
 
     &__col--left {
         display: flex;
         align-items: center;
+    }
+
+    &__col--right {
+        display: flex;
+        align-items: center;
+    }
+
+    &__contacts {
+        display: block;
+        text-align: right;
+
+        &--phone {
+            color: $white;
+            font-size: 26px;
+            text-decoration: none;
+        }
+    
+        &--worktime {
+            position:relative;
+            color: $white;
+            font-size: 13px;
+
+            &--modal {
+                display: none;
+            }
+        }
     }
 
 }

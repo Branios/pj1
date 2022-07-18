@@ -750,6 +750,17 @@ hr {
           align-items: center;
 }
 .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__nav {
   margin-left: 80px;
 }
 .footer__col--left {
@@ -759,4 +770,29 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.footer__col--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__contacts {
+  display: block;
+  text-align: right;
+}
+.footer__contacts--phone {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-decoration: none;
+}
+.footer__contacts--worktime {
+  position: relative;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+.footer__contacts--worktime--modal {
+  display: none;
 }
