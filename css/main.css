@@ -779,6 +779,12 @@ hr {
       -ms-flex-align: center;
           align-items: center;
 }
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 74px;
+}
 .footer__contacts {
   display: block;
   text-align: right;
@@ -797,19 +803,50 @@ hr {
   display: none;
 }
 
-.social {
-  margin-right: 74px;
+.social__tg {
+  background: url("/icons/tg.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
 }
-.social__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
+.social__tg:hover {
+  background: url("/icons/tg_hover.svg") center center no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-.social__list--item {
-  margin-left: 40px;
-  text-decoration: none;
+
+.social__vk {
+  background: url("/icons/vk.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+}
+.social__vk:hover {
+  background: url("/icons/vk_hover.svg") center center no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social__fb {
+  background: url("/icons/fb.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+}
+.social__fb:hover {
+  background: url("/icons/fb_hover.svg") center center no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social__in {
+  background: url("/icons/in.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+}
+.social__in:hover {
+  background: url("/icons/in_hover.svg") center center no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }

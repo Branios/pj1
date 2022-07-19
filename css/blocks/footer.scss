@@ -30,6 +30,11 @@
         align-items: center;
     }
 
+    &__social {
+        display: flex;
+        margin-right: 74px;
+    }
+
     &__contacts {
         display: block;
         text-align: right;
@@ -53,24 +58,16 @@
 
 }
 
-.social {
+@each $social in (tg, vk, fb, in) {
+    .social__#{$social} {
+        background: url('/icons/#{$social}.svg') center center no-repeat;
+        width: 36px;
+        height: 36px;
+        margin-left: 10px;
 
-    margin-right: 74px;
-
-    &__list {
-        display: flex;
-        align-items: center;
-        list-style: none;
-
-        &--item {
-            margin-left: 40px;
-            text-decoration: none;
-        }
-    }
-
-    @each $social in (tg, vk, fb, in) {
-        .social_#{$social} {
-            
+        &:hover {
+            background: url('/icons/#{$social}_hover.svg') center center no-repeat;
+            transition: 0.5s;
         }
     }
 }
